@@ -1,0 +1,47 @@
+{
+  "name": "weddinglog-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon app",
+    "server:dev": "NODE_ENV=dev nodemon app",
+    "server:prod": "NODE_ENV=prod nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^6.8.0",
+    "audit": "^0.0.6",
+    "aws-sdk": "^2.1232.0",
+    "axios": "^1.2.0",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-useragent": "^1.0.15",
+    "fix": "^0.0.3",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "knex": "^2.3.0",
+    "md5": "^2.3.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.8.0",
+    "npm": "^9.2.0",
+    "request": "^2.88.2",
+    "request-ip": "^3.3.0",
+    "sha256": "^0.2.0",
+    "sharp": "^0.31.2",
+    "swiper": "^8.4.4",
+    "vue-awesome-swiper": "^5.0.1",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "description": ""
+}

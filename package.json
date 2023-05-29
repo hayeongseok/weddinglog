@@ -1,0 +1,62 @@
+{
+  "name": "weddinglog2022",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@toast-ui/editor": "^3.2.1",
+    "@toast-ui/vue-editor": "^3.2.2",
+    "chart.js": "^4.2.0",
+    "core-js": "^3.8.3",
+    "gsap": "^3.11.3",
+    "sharp": "^0.31.2",
+    "ssr-window": "^4.0.2",
+    "swiper": "^5.3.7",
+    "vue": "^2.6.14",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-chartjs": "^5.2.0",
+    "vue-daum-postcode": "^0.10.0",
+    "vue-lazy-loading": "^1.0.3",
+    "vue-router": "^3.5.1",
+    "vue-swal": "^1.0.0",
+    "vue-sweetalert2": "^5.0.5",
+    "vue2-datepicker": "^3.11.0",
+    "vuedraggable": "^2.24.3",
+    "vuejs-datepicker": "^1.6.2",
+    "vuejs-daum-postcode": "^1.0.4",
+    "vuetify": "^2.6.0",
+    "vuex": "^3.6.2",
+    "vuex-multi-tab-state": "^1.0.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@types/swiper": "^6.0.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "axios": "^1.2.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-cli-plugin-axios": "~0.0.4",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify-loader": "^1.7.0"
+  },
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.wheeparam.com/wheeparam/weddinglog2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
